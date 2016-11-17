@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83FC132A032A56C0677ECE5A /* Pods_BouncyHighlightButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC38E9E000B11BB047F6B37 /* Pods_BouncyHighlightButton.framework */; };
 		C9136F8D1DDE3E450066ADA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9136F8C1DDE3E450066ADA0 /* AppDelegate.swift */; };
 		C9136F8F1DDE3E450066ADA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9136F8E1DDE3E450066ADA0 /* ViewController.swift */; };
 		C9136F921DDE3E450066ADA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9136F901DDE3E450066ADA0 /* Main.storyboard */; };
 		C9136F941DDE3E450066ADA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9136F931DDE3E450066ADA0 /* Assets.xcassets */; };
 		C9136F971DDE3E450066ADA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9136F951DDE3E450066ADA0 /* LaunchScreen.storyboard */; };
+		C9136F9F1DDE3E690066ADA0 /* BouncyHighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9136F9E1DDE3E690066ADA0 /* BouncyHighlightButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A67CD6DEBC4F3EEE5AE4D97A /* Pods-BouncyHighlightButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BouncyHighlightButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-BouncyHighlightButton/Pods-BouncyHighlightButton.release.xcconfig"; sourceTree = "<group>"; };
 		C9136F891DDE3E440066ADA0 /* BouncyHighlightButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncyHighlightButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9136F8C1DDE3E450066ADA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9136F8E1DDE3E450066ADA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		C9136F931DDE3E450066ADA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9136F961DDE3E450066ADA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9136F981DDE3E450066ADA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9136F9E1DDE3E690066ADA0 /* BouncyHighlightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncyHighlightButton.swift; sourceTree = "<group>"; };
+		C9E534BCA1417ABD47767DB9 /* Pods-BouncyHighlightButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BouncyHighlightButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BouncyHighlightButton/Pods-BouncyHighlightButton.debug.xcconfig"; sourceTree = "<group>"; };
+		CFC38E9E000B11BB047F6B37 /* Pods_BouncyHighlightButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BouncyHighlightButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FC132A032A56C0677ECE5A /* Pods_BouncyHighlightButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51A3B87B09B203FDDF8A077D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC38E9E000B11BB047F6B37 /* Pods_BouncyHighlightButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9136F801DDE3E440066ADA0 = {
 			isa = PBXGroup;
 			children = (
 				C9136F8B1DDE3E440066ADA0 /* BouncyHighlightButton */,
 				C9136F8A1DDE3E440066ADA0 /* Products */,
+				E11574603FCDB0A2575F15E8 /* Pods */,
+				51A3B87B09B203FDDF8A077D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +71,7 @@
 		C9136F8B1DDE3E440066ADA0 /* BouncyHighlightButton */ = {
 			isa = PBXGroup;
 			children = (
+				C9136F9E1DDE3E690066ADA0 /* BouncyHighlightButton.swift */,
 				C9136F8C1DDE3E450066ADA0 /* AppDelegate.swift */,
 				C9136F8E1DDE3E450066ADA0 /* ViewController.swift */,
 				C9136F901DDE3E450066ADA0 /* Main.storyboard */,
@@ -64,6 +82,15 @@
 			path = BouncyHighlightButton;
 			sourceTree = "<group>";
 		};
+		E11574603FCDB0A2575F15E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E534BCA1417ABD47767DB9 /* Pods-BouncyHighlightButton.debug.xcconfig */,
+				A67CD6DEBC4F3EEE5AE4D97A /* Pods-BouncyHighlightButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9136F9B1DDE3E450066ADA0 /* Build configuration list for PBXNativeTarget "BouncyHighlightButton" */;
 			buildPhases = (
+				8B1A48F6F9E87BB6A6FDF9F0 /* [CP] Check Pods Manifest.lock */,
 				C9136F851DDE3E440066ADA0 /* Sources */,
 				C9136F861DDE3E440066ADA0 /* Frameworks */,
 				C9136F871DDE3E440066ADA0 /* Resources */,
+				37DA048AE3F273DAD2D1C4D8 /* [CP] Embed Pods Frameworks */,
+				8D88C5461AA6E3A76C203F4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +162,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37DA048AE3F273DAD2D1C4D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BouncyHighlightButton/Pods-BouncyHighlightButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1A48F6F9E87BB6A6FDF9F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D88C5461AA6E3A76C203F4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BouncyHighlightButton/Pods-BouncyHighlightButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9136F851DDE3E440066ADA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C9136F8F1DDE3E450066ADA0 /* ViewController.swift in Sources */,
+				C9136F9F1DDE3E690066ADA0 /* BouncyHighlightButton.swift in Sources */,
 				C9136F8D1DDE3E450066ADA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +338,7 @@
 		};
 		C9136F9C1DDE3E450066ADA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E534BCA1417ABD47767DB9 /* Pods-BouncyHighlightButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
@@ -272,6 +352,7 @@
 		};
 		C9136F9D1DDE3E450066ADA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67CD6DEBC4F3EEE5AE4D97A /* Pods-BouncyHighlightButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
