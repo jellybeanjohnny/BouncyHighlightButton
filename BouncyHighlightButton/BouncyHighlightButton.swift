@@ -143,6 +143,7 @@ class BouncyHighlightButton: UIButton {
 
 //MARK: - Animations
 extension BouncyHighlightButton {
+  
   func setupTouchEvents() {
     addTarget(self, action: #selector(touchDownHandler), for: .touchDown)
     addTarget(self, action: #selector(touchUpInsideHandler), for: .touchUpInside)
